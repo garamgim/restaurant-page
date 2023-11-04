@@ -1,0 +1,1 @@
+(()=>{"use strict";document.body.appendChild(document.createElement("header")),document.body.appendChild((()=>{const e=document.createElement("main");return e.appendChild(void 0),e})())})();
