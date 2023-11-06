@@ -1,4 +1,5 @@
 import loadHome from "./home";
+import loadMenu from "./menu";
 
 const createHeader = () => {
     const header = document.createElement("header");
@@ -7,7 +8,7 @@ const createHeader = () => {
 
 const createMain = () => {
     const main = document.createElement("main");
-    main.appendChild(loadHome())
+    main.appendChild(loadMenu())
     return main;
 }
 

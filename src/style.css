@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'CinzelDecorative';
+    src: url('./font/CinzelDecorative-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CinzelDecorative';
+    src: url('./font/CinzelDecorative-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('./font/Cinzel-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('./font/Cinzel-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('./font/Cinzel-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+main {
+    width: 70%;
+}
+
+.content-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#content-page-menu {
+    align-items: flex-start;
+}
+
+#title {
+    font-family: 'CinzelDecorative';
+    font-weight: 700;
+    font-size: 90px;
+}
+
+#introduction {
+    font-family: 'CinzelDecorative';
+    font-weight: 400;
+    font-size: 40px;
+    margin: 30px;
+}
+
+#mars-img {
+    margin: 100px;
+}
+
+#menu-header {
+    align-self: center;
+    font-family: 'CinzelDecorative';
+    font-weight: 700;
+    font-size: 60px;
+    margin: 50px;
+}
+
+.menu-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 50px;
+}
+
+.menu-img {
+    width: 200px;
+    height: 200px;
+}
+
+.menu-sentence-div {
+    padding-left: 20px;
+    font-family: 'Cinzel';
+}
+
+.menu-name {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.menu-description {
+    margin: 15px 0;
+}
+
+.menu-price {
+    font-weight: 500;
+}
