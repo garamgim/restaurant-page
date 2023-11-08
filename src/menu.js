@@ -27,7 +27,7 @@ export default function () {
 
 function createMenu(imgUrl, menuName, menuDescr, priceStr) {
     const container = document.createElement("div");
-    container.className = "menu-div"
+    container.className = "menu-div";
 
     const sentences = document.createElement("div");
     sentences.className = "menu-sentence-div"

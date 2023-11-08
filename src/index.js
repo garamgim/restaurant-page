@@ -1,4 +1,4 @@
-import { initializer } from "./website";
+import { initializer } from "./header";
 import './style.css';
 import './reset.css';
 
