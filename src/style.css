@@ -41,6 +41,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
 }
@@ -57,6 +58,7 @@ body {
     align-items: center;
     width: 70vw;
     background-color: white;
+    margin-bottom: 150px;
 }
 
 #content-page-menu {
@@ -67,6 +69,7 @@ body {
     font-family: 'CinzelDecorative';
     font-weight: 700;
     font-size: 90px;
+    margin-top: 7%;
 }
 
 #introduction {
@@ -86,7 +89,7 @@ body {
     font-family: 'CinzelDecorative';
     font-weight: 700;
     font-size: 60px;
-    margin: 50px;
+    margin: 7%;
 }
 
 .menu-div {
@@ -117,10 +120,6 @@ body {
 
 .menu-price {
     font-weight: 500;
-}
-
-#contact-us {
-    margin: 7%;
 }
 
 #map {
