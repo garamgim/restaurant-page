@@ -1,5 +1,4 @@
 @media (width < 1200px) {
-
     #title {
         font-size: 75px;
     }
@@ -18,12 +17,65 @@
         font-size: 60px;
     }
 
+    .menu-sentence-div {
+        font-size: 20px;
+    }
+
+    .menu-name {
+        font-size: 23px;
+    }
+
     #profile-div {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     #map {
         width: 450px;
         margin-bottom: 10%;
+    }
+}
+
+@media (width < 800px) {
+    .content-page {
+        width: 90vw;
+    }
+
+    #title {
+        font-size: 58px;
+    }
+
+    #introduction {
+        font-size: 23px;
+        margin: 20px;
+    }
+
+    #mars-img {
+        width: 200px;
+    }
+
+    #menu-header,
+    #contact-us {
+        font-size: 50px;
+    }
+
+    .menu-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .menu-sentence-div {
+        font-size: 15px;
+    }
+
+    .menu-name {
+        font-size: 20px;
+    }
+
+    #profile-div {
+        font-size: 15px;
+    }
+
+    #map {
+        width: 350px;
     }
 }
