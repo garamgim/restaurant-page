@@ -1,0 +1,29 @@
+@media (width < 1200px) {
+
+    #title {
+        font-size: 75px;
+    }
+
+    #introduction {
+        font-size: 30px;
+        margin: 25px;
+    }
+
+    #mars-img {
+        margin: 7%;
+    }
+
+    #menu-header,
+    #contact-us {
+        font-size: 60px;
+    }
+
+    #profile-div {
+        font-size: 18px;
+    }
+
+    #map {
+        width: 450px;
+        margin-bottom: 10%;
+    }
+}

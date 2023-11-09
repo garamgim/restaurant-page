@@ -135,6 +135,9 @@ body {
 }
 
 #profile-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Cinzel';
     font-size: 22px;
     line-height: 162%;
