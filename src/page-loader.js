@@ -14,10 +14,6 @@ const contentLoader = (() => {
     const menuBtn = document.createElement("button");
     const contactBtn = document.createElement("button");
 
-    homeBtn.classList = "header-button";
-    menuBtn.classList = "header-button";
-    contactBtn.classList = "header-button";
-
     homeBtn.innerHTML = "HOME"
     menuBtn.innerHTML = "MENU"
     contactBtn.innerHTML = "CONTACT"

@@ -9,10 +9,10 @@ export default function () {
     contentPage.appendChild(contactUs);
 
     const telephone = document.createElement("p");
-    telephone.innerHTML = "&#128222; (070) 777-7777-7777";
+    telephone.innerHTML = "&nbsp; &#128222; (070) 777-7777-7777";
 
     const address = document.createElement("p");
-    address.innerHTML = "&#128205; 952, Taiwan, Taitung County, Lanyu Township"
+    address.innerHTML = "&nbsp; &#128205; 952, Taiwan, Taitung County, Lanyu Township"
 
     const map = new Image();
     map.src = "./img/map.png";
