@@ -79,3 +79,63 @@
         width: 350px;
     }
 }
+
+@media (height < 650) and (width < 400px) {
+    #header {
+        margin-top: 20%;
+    }
+
+    #title {
+        font-size: 40px;
+    }
+
+    #introduction {
+        font-size: 15px;
+        margin: 9px;
+    }
+
+    #mars-img {
+        width: 170px;
+    }
+
+    #menu-header,
+    #contact-us {
+        font-size: 30px;
+    }
+
+    .menu-div {
+        margin: 10px 14px;
+    }
+
+    .menu-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .menu-sentence-div {
+        font-size: 12px;
+
+        padding-left: 10px;
+    }
+
+    .menu-name {
+        font-size: 15px;
+    }
+
+    .menu-description {
+        margin: 5px 0;
+    }
+
+    #profile-div {
+        font-size: 11px;
+    }
+
+    #map {
+        width: 270px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 8px 5px;
+    }
+}
