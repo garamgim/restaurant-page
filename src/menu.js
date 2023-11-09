@@ -8,7 +8,7 @@ export default function () {
     header.id = "menu-header"
     header.innerHTML = "MENU";
 
-    const cake = createMenu("./img/cake.png", "Alien Cake", "Martian green flours, spicy moon lemons, chocolates, <br>and bear milk.", "799.00");
+    const cake = createMenu("./img/cake.png", "Alien Cake", "Martian green flours, spicy moon lemons, chocolates, and bear milk.", "799.00");
     const macaron = createMenu("./img/macaron.jpeg", "Marsberry Macarons", "5pcs, Special macarons with Marsberry buttercream.", "30.90");
     const pudding = createMenu("./img/pudding.jpg", "Space Pudding", "Banana pudding with a spoon of coconut cream <br>from Rings of Saturn.", "70000.00");
     const coffee = createMenu("./img/coffee.jpg", "Martian Coffee", "Traditional Martian coffee with bear milk butter.", "15.70");
